@@ -47,7 +47,7 @@ class PinGenerator
     }
 
 
-    public function test_pin_should_be_unique(): bool
+    public function testPinShouldBeUnique(): bool
     {
         $results[$this->max] = [];
         while (count($this->sequence)) {
